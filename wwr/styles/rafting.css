@@ -7,33 +7,18 @@
     --text-font: 'Poppins', sans-serif;
 }
 
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
 body {
     font-family: var(--text-font);
     color: var(--primary-color);
     background-color: var(--accent1-color);
     line-height: 1.6;
-    max-width: 1200px; /* Limit the page width */
-    margin: 0 auto; /* Center the content */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Header Styling */
 header {
     background-color: var(--secondary-color);
     padding: 10px;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 header nav a {
@@ -43,11 +28,6 @@ header nav a {
     margin-left: 15px;
 }
 
-header nav a:hover {
-    color: var(--accent2-color);
-}
-
-/* Hero Section */
 .hero {
     position: relative;
     text-align: center;
@@ -56,42 +36,38 @@ header nav a:hover {
 
 .hero img {
     display: block;
-    width: 100%; /* Fit the allocated space */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
     position: absolute;
-    top: 30%; /* Adjust positioning as needed */
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: var(--heading-font);
-    font-weight: 100;
+    font-weight: 400;
     font-size: 3rem;
     color: var(--accent1-color);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
-    border-radius: 10px;
     text-align: center;
 }
 
 .hero article {
     position: absolute;
-    bottom: 10%;
-    left: 5%;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    top: 50%;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
     color: var(--primary-color);
     padding: 15px;
     max-width: 40%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero article img {
-    float: right;
     margin-left: 15px;
-    border-radius: 10px;
-    max-width: 100px; /* Adjust size as needed */
+    max-width: 100px;
 }
 
 .hero article p {
@@ -100,7 +76,6 @@ header nav a:hover {
     line-height: 1.5;
 }
 
-/* Main Content */
 section {
     padding: 20px;
 }
@@ -111,36 +86,13 @@ section h2 {
     margin-bottom: 10px;
 }
 
-section p {
-    color: var(--primary-color);
-}
-
-/* Adventure Section Images */
-section img {
-    max-width: 30%;
-    margin: 10px;
-    border: 3px solid var(--accent2-color);
-    border-radius: 5px;
-}
-
-/* Footer Styling */
 footer {
     background-color: var(--secondary-color);
     padding: 20px;
-    text-align: center;
 }
 
-footer .sociallinks a {
-    margin: 0 10px;
-}
-
-footer .sociallinks a img {
-    width: 40px;
-    height: auto;
-}
-
-/* Remove underline from image links */
-a img {
-    text-decoration: none;
-    border: none;
+footer p {
+    color: var(--accent1-color);
+    font-size: 0.9rem;
+    margin-top: 10px;
 }
