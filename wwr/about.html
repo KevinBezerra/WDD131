@@ -13,12 +13,14 @@
     </head>
     <body>
         <header>
-            <nav> 
-                <img src="images/logo.png" alt="logo" width="200">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+            <nav>
+                <img src="images/logo.png" alt="logo" width="200" class="logo">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -32,15 +34,36 @@
             </div>
             <section>
                 <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a arcu quis odio tristique sollicitudin. Etiam facilisis eros vitae urna imperdiet, ut egestas dolor cursus. Quisque ut tempus eros. Donec vel leo mi. Duis pellentesque ultrices dapibus.</p>
+        <div class="history-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a arcu quis odio tristique sollicitudin. Etiam facilisis eros vitae urna imperdiet, ut egestas dolor cursus. Quisque ut tempus eros. Donec vel leo mi. Duis pellentesque ultrices dapibus.</p>
+            <img src="images/river-narrow.jpg" alt="History Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a arcu quis odio tristique sollicitudin. Etiam facilisis eros vitae urna imperdiet, ut egestas dolor cursus. Quisque ut tempus eros. Donec vel leo mi. Duis pellentesque ultrices dapibus.</p>
+        </div>
             </section>
             <section>
                 <h2>Adventure Awaits You!</h2>
-                <img src="images/helmets_on_raft.jpg" alt="helmets_on_raft">
-                <img src="images/yellow_rafts.jpg" alt="happy_client">
-                <img src="images/group_happy_clients.jpg" alt="happy_client">
-                <img src="images/radical_raft.jpg" alt="happy_client">
-                <img src="images/line_of_rafts.jpg" alt="happy_client">
+                <div class="adventure-container">
+                    <figure>
+                        <img src="images/helmets_on_raft.jpg" alt="Los Dientes del Diablo">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/yellow_rafts.jpg" alt="Big Mallard">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/group_happy_clients.jpg" alt="Half Day Adventure">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/radical_raft.jpg" alt="The Rapids Challenge">
+                        <figcaption>The Rapids Challenge</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/line_of_rafts.jpg" alt="Sunset Expedition">
+                        <figcaption>Sunset Expedition</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
@@ -52,7 +75,7 @@
                     <img src="images/twitter.webp" alt="Twitter">
                 </a>
                 <a href="https://instagram.com">
-                    <img src="images/instagram.webp" alt="Twitter">
+                    <img src="images/instagram.webp" alt="Instagram">
                 </a>
             </nav>
             <p>©2024 Whitewater Rafting, Created by Kevin Bezerra.</p>
